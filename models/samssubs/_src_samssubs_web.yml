@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: samssubs_landing
+    database: bradsteele
+    schema: samssubs_source
+    tables:
+      - name: web_traffic_events
